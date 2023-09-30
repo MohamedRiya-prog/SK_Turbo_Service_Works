@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.slick-slide.center .slick-slide img {
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+
+.elfsight-app-c06253f5-4e71-4b00-b0ce-22e6c32691ba {
+  padding: 20px;
+  margin: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
