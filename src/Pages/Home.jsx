@@ -9,6 +9,7 @@ const Home = () => {
       <Hero />
       <Imagecarousel />
       <Intro />
+      <Youtube />
       <Googlereviews />
       <Footer />
 
