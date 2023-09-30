@@ -17,7 +17,7 @@ const Header = () => {
       {isOpen && (
         <div className="bg-white mt-2 shadow-xl rounded flex flex-col font-poppins text-sm p-2">
           <Link 
-          to="/home"
+          to="/"
           onClick={()=> setIsOpen(false)}
           className='pb-2'
           >
@@ -31,7 +31,7 @@ const Header = () => {
             About Us
           </Link>
           <Link 
-          to="/aboutus"
+          to="/contact"
           onClick={()=> setIsOpen(false)}
           className='pb-2'
           >
