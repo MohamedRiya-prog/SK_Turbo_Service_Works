@@ -2,12 +2,15 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 
+import { Logo } from '../Assets';
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div>
-      <div className='flex justify-between p-4 bg-mainBlue text-white text-lg'>
+      <div className='flex justify-between items-center p-4 bg-mainBlue text-white text-lg'>
+        <img src={Logo} alt="" />
         <h1 className='font-lexend font-semibold'>SK. TURBO SERVICE WORKS</h1>
         <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none">
           <MenuIcon />
