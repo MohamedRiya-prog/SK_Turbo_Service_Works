@@ -18,8 +18,16 @@ const Contact = () => {
       <div className="flex-grow">
         <p className="font-semibold font-poppins text-sm mt-4 px-4">Contacts</p>
         <p className="p-4 text-xs">
-          Name: <br />
-          Mobile:
+          Name: SK. Waheed<br />
+          Mobile: +91 9885645025
+        </p>
+        <p className="p-4 text-xs">
+          Name: SK. Fareed<br />
+          Mobile: +91 8886356627
+        </p>
+        <p className="p-4 text-xs">
+          Name: SK. Sayeed<br />
+          Mobile: +91 9966647657
         </p>
         <iframe
           title="SK Turbo Service Works Location"

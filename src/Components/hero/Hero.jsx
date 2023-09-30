@@ -8,7 +8,7 @@ const Hero = () => {
       <h2 className="font-poppins text-xs font-normal">
         "Celebrating{" "}
         <span className="text-mainYellow font-semibold text-base">
-          40 Years
+          4 Decades
         </span>{" "}
         of Turbocharged Excellence!"
       </h2>
